@@ -1,0 +1,25 @@
+Being able to use a computer to identify file differences is much faster and more accurate.
+Saving copies of files is a primate form of version control.
+Some familiar applications like DropBox, GoogleDocs, and Wikipedia also have some form of version control.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It would be very helpful to see the modification history of a piece of code, along with the reasons why changes were made.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+For software version control, it's better to manually commit since there are logical reasons to commit (or not) at a particular point in time that only a developer can identify.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is designed for software development version control. Since applications can require and include multiple files, it's useful to be able to have multiple files in a single commit.
+
+How can you use the commands git log and git diff to view the history of files?
+You can use the "git log" to see the list of commits that have been made, along with their IDs and a brief description of the change.
+Then, once you have the commit IDs you can use the "git diff" command to compare the differences between two different commits.
+
+How might using version control make you more confident to make changes that could break something?
+I can experiment with a possible solution, knowing that I can easily revert the changes, if there's problem. 
+And, if I accidentally introduce a bug, I know that I can quickly and easily recover from it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Checking our verions...
+Creating new branches...
+Generally playing around with code, without screwing something up...
