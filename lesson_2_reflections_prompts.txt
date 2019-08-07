@@ -21,3 +21,7 @@ By clearly showing the different code branches, and where they break off from th
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result of merging two branches together is to create a single new branch that merges the code of the indicated branch into the currently checked out branch.
 We represent it in the diagram to show how the various commits relate to each other. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pros are that it can handle easy commits, where it's clear to Git how to merge the changes without creating problems.
+The cons are that it can only do simple commits, and you wind up needing to do the more complicated merges yourself.
